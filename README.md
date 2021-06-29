@@ -6,22 +6,22 @@
 
 4. get the endpoint of develop postgres server and add them into .env file
 ```
-postgres://<username>:password@<db endpoint>:port/<database where table was created>
+    postgres://<username>:password@<db endpoint>:port/<database where table was created>
 ```
 4. create virtual environment 
    ```
-python3 -m venv rds
-source rds/bin/activate
+    python3 -m venv rds
+    source rds/bin/activate
 
    ```
 5. install all requirements by running:
 ```
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 ```
 6. run select.py file to check if database connection is working
 
 ```
-python select.py
+    python select.py
 
 ```
